@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "info.partonetrain.effectidfix.mixin",
+  "plugin": "info.partonetrain.effectidfix.EffectidfixMixinPlugin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ArchersEffectsMixin",
+    "PaladinsEffectsMixin",
+    "RegistryMixin",
+    "RoguesEffectsMixin",
+    "SpellpowerEffectsMixin",
+    "WizardsEffectsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
